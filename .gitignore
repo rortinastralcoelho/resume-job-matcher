@@ -1,0 +1,9 @@
+# Ignore Python Virtual Environments and caches
+venv/
+__pycache__/
+
+# Ignore Environment Variables (API Keys)
+.env
+
+# Ignore React dependencies
+node_modules/

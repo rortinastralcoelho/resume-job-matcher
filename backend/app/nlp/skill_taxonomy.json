@@ -1,0 +1,42 @@
+{
+  "programming_languages": [
+    "python",
+    "javascript",
+    "typescript",
+    "java",
+    "c++",
+    "c#",
+    "sql",
+    "html",
+    "css"
+  ],
+  "frameworks_and_libraries": [
+    "react",
+    "fastapi",
+    "node.js",
+    "express",
+    "django",
+    "flask",
+    "spring boot",
+    "angular",
+    "vue.js"
+  ],
+  "tools_and_platforms": [
+    "git",
+    "docker",
+    "kubernetes",
+    "aws",
+    "azure",
+    "gcp",
+    "linux",
+    "jira"
+  ],
+  "soft_skills": [
+    "leadership",
+    "communication",
+    "problem solving",
+    "teamwork",
+    "project management",
+    "agile"
+  ]
+}

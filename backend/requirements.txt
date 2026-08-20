@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-multipart
+spacy
+PyMuPDF
+sentence-transformers
+numpy
+sqlalchemy
+psycopg2-binary
+alembic
+openai
