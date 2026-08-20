@@ -133,3 +133,4 @@ def generate_cover_letter(job_description: str, resume_text: str) -> str:
         except Exception as backup_error:
             logger.error(f"Both models failed for cover letter: {backup_error}")
             return "Could not generate cover letter at this time due to high server traffic. Please try again later."
+            PyPDF2
