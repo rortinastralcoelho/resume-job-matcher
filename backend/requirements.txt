@@ -10,3 +10,5 @@ pydantic
 openai
 requests
 numpy
+passlib
+bcrypt
