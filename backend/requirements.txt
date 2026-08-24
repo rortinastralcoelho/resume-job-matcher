@@ -12,3 +12,4 @@ requests
 numpy
 passlib
 bcrypt
+PyJWT
