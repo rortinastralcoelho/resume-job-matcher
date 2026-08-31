@@ -19,9 +19,13 @@ app = FastAPI(
 )
 
 # --- THE MAGIC CORS BLOCK ---
+# --- THE UPDATED CORS BLOCK ---
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # Allows any frontend to connect
+    allow_origins=[
+        "https://resume-job-matcher-wine.vercel.app",
+        "http://localhost:5173", # Keeps local development working too
+    ],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
