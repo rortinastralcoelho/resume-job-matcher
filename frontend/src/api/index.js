@@ -1,4 +1,4 @@
-const BASE_URL = 'https://resume-job-matcher-0zpz.onrender.com';
+const BASE_URL = 'https://resume-job-matcher-0zpz.onrender.com/api';
 
 export const saveJobAPI = async (jobData) => {
   const response = await fetch(BASE_URL + '/jobs/', {
