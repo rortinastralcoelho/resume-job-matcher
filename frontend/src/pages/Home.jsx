@@ -45,8 +45,7 @@ function Home() {
 
   const handleGenerateCoverLetter = async () => {
     setIsLoadingLetter(true);
-    try {
-      const response = await fetch(`http://localhost:8000/api/analysis/cover-letter?job_id=${jobId}&resume_id=${resumeId}`, {
+    try {const response = await fetch(`https://resume-job-matcher-0zpz.onrender.com/api/analysis/cover-letter?job_id=${jobId}&resume_id=${resumeId}`, {
         method: 'POST'
       });
       const data = await response.json();
