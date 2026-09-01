@@ -11,5 +11,5 @@ openai
 requests
 numpy
 passlib
-bcrypt
+bcrypt==3.2.2
 PyJWT
